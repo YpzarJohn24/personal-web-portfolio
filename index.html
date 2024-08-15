@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon.png"
+      type="image/png"
+    />
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <title>Responsive Portfolio Website</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header id="header" class="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Ypzar<span>John.</span></a>
+
+        <div id="nav-menu" class="nav__menu">
+          <ul class="nav__list">
+            <li>
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+            <li>
+              <a href="#works" class="nav__link">Works</a>
+            </li>
+            <li>
+              <a href="#info" class="nav__link">My Info</a>
+            </li>
+            <li>
+              <a href="#services" class="nav__link">Services</a>
+            </li>
+            <li>
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+
+          <!-- Close button -->
+          <div id="nav-close" class="nav__close">
+            <i class="ri-close-large-line"></i>
+          </div>
+        </div>
+
+        <!-- Toggle button -->
+        <div id="nav-toggle" class="nav__toggle">
+          <i class="ri-menu-line"></i>
+        </div>
+      </nav>
+    </header>
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <section id="home" class="home section">
+        <div class="home__container container grid">
+          <img
+            src="assets/images/profile.png"
+            alt="ypzarjohn's profile"
+            class="home__img"
+          />
+
+          <div class="home__data">
+            <h1 class="home__name">
+              Ypzar John <br />
+              Sandoval
+            </h1>
+            <h2 class="home__profession">Web Developer</h2>
+          </div>
+
+          <a href="#works" class="home__scroll">
+            <div class="home__scroll-box">
+              <i class="ri-arrow-down-line"></i>
+            </div>
+
+            <span class="home__scroll-text">Recent Works</span>
+          </a>
+        </div>
+      </section>
+      <!--==================== WORKS ====================-->
+      <section id="works" class="works section">
+        <h2 class="section__title">RECENT WORKS</h2>
+
+        <div class="works__container container grid">
+          <article class="work__card">
+            <a
+              href="https://coffero-website.netlify.app/"
+              class="work__link"
+              target="_blank"
+            >
+              <h2 class="work__title">Coffero Website</h2>
+              <p class="work__description">
+                Coffero is a fully responsive coffee website, responsive for all
+                devices, build using ReactJS and CSS.
+              </p>
+
+              <img
+                src="assets/images/work1.png"
+                alt="work project"
+                class="work__img"
+              />
+              <i class="ri-arrow-right-line"></i>
+            </a>
+          </article>
+          <article class="work__card">
+            <a
+              href="https://grilli-project.netlify.app/"
+              class="work__link"
+              target="_blank"
+            >
+              <h2 class="work__title">Grilli Website</h2>
+              <p class="work__description">
+                Grilli is a fully responsive restaurant website, responsive for
+                all devices, build using HTML, CSS, and JavaScript.
+              </p>
+
+              <img
+                src="assets/images/work2.png"
+                alt="work project"
+                class="work__img"
+              />
+              <i class="ri-arrow-right-line"></i>
+            </a>
+          </article>
+          <article class="work__card">
+            <a
+              href="https://ypzarjohn-burger-website.netlify.app/"
+              class="work__link"
+              target="_blank"
+            >
+              <h2 class="work__title">Burger Website</h2>
+              <p class="work__description">
+                Burger Website is a fully responsive food website, responsive
+                for all devices, build using HTML, CSS, and JavaScript.
+              </p>
+
+              <img
+                src="assets/images/work3.png"
+                alt="work project"
+                class="work__img"
+              />
+              <i class="ri-arrow-right-line"></i>
+            </a>
+          </article>
+          <article class="work__card">
+            <a
+              href="https://ypzarjohn-omnifood-website.netlify.app/"
+              class="work__link"
+              target="_blank"
+            >
+              <h2 class="work__title">Omnifood Website</h2>
+              <p class="work__description">
+                Omnifood is a fully responsive food website, responsive for all
+                devices, build using HTML, CSS, and JavaScript.
+              </p>
+
+              <img
+                src="assets/images/work4.png"
+                alt="work project"
+                class="work__img"
+              />
+              <i class="ri-arrow-right-line"></i>
+            </a>
+          </article>
+          <article class="work__card">
+            <a
+              href="https://gamics-website.netlify.app/"
+              class="work__link"
+              target="_blank"
+            >
+              <h2 class="work__title">Gamics Website</h2>
+              <p class="work__description">
+                Gamics is a fully responsive gaming website, responsive for all
+                devices, build using HTML, CSS, and JavaScript.
+              </p>
+
+              <img
+                src="assets/images/work5.png"
+                alt="work project"
+                class="work__img"
+              />
+              <i class="ri-arrow-right-line"></i>
+            </a>
+          </article>
+          <article class="work__card">
+            <a
+              href="https://autofix-website.netlify.app/"
+              class="work__link"
+              target="_blank"
+            >
+              <h2 class="work__title">Autofix Website</h2>
+              <p class="work__description">
+                Autofix is a fully responsive car service website, responsive
+                for all devices, build using HTML, CSS, and JavaScript.
+              </p>
+
+              <img
+                src="assets/images/work6.png"
+                alt="work project"
+                class="work__img"
+              />
+              <i class="ri-arrow-right-line"></i>
+            </a>
+          </article>
+          <article class="work__card">
+            <a
+              href="https://dentelo-website.netlify.app/"
+              class="work__link"
+              target="_blank"
+            >
+              <h2 class="work__title">Dentelo Website</h2>
+              <p class="work__description">
+                Dentelo is a fully responsive dental website, responsive for all
+                devices, build using HTML, CSS, and JavaScript.
+              </p>
+
+              <img
+                src="assets/images/work7.png"
+                alt="work project"
+                class="work__img"
+              />
+              <i class="ri-arrow-right-line"></i>
+            </a>
+          </article>
+        </div>
+      </section>
+      <!--==================== INFO ====================-->
+      <section id="info" class="info section">
+        <h2 class="section__title">MY INFO</h2>
+
+        <div class="info__container container grid">
+          <!-- ABOUT -->
+          <div class="about grid">
+            <div class="about__content">
+              <h3 class="info__title">About Me</h3>
+              <p class="about__description">
+                As a
+                <strong>self-taught developer</strong> with a passion for
+                coding, I am on a journey of continuous learning and skill
+                enhancement. My background in coding, coupled with a commitment
+                to staying updated with the
+                <strong>latest technologies</strong> , drives my enthusiasm for
+                creating innovative solutions.
+              </p>
+              <a
+                href="https://drive.google.com/file/d/1r3YUcssEDwxmobW0mm8D3819bEcnsrz0/view?usp=drive_link"
+                class="button about__button"
+                target="_blank"
+                >Download CV <i class="ri-download-2-line"></i
+              ></a>
+            </div>
+            <img
+              src="assets/images/profile.png"
+              alt="ypzarjohn's profile"
+              class="about__img"
+            />
+          </div>
+          <!-- PROJECT EXPERIENCE -->
+          <div class="experience">
+            <h3 class="info__title">Project Experiences</h3>
+            <div class="experience__content grid">
+              <div class="experience__data grid">
+                <h2 class="experience__company">Zuitt Coding Bootcamp</h2>
+
+                <div>
+                  <h3 class="experience__profession">
+                    Full Stack Web Developer
+                  </h3>
+                  <span class="experience__date">07/23 - 08/23</span>
+                  <p class="experience__description">
+                    I completed an intensive coding bootcamp where I mastered
+                    essential web development skills and advanced techniques.
+                    The program covered full-stack development, including HTML,
+                    CSS, JavaScript, React, and more, equipping me with the
+                    practical knowledge to build dynamic and responsive web
+                    applications. Through hands-on projects and real-world
+                    scenarios, I gained valuable experience and problem-solving
+                    skills, preparing me for a career in tech.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- SKILLS -->
+          <div class="skills">
+            <h3 class="info__title">Skills</h3>
+
+            <div class="skills__content grid">
+              <div class="skills__box">
+                <img
+                  src="assets/images/info-html.svg"
+                  alt="HTML logo"
+                  class="skills__img"
+                />
+                <span class="skills__name">HTML</span>
+              </div>
+              <div class="skills__box">
+                <img
+                  src="assets/images/info-css.svg"
+                  alt="CSS logo"
+                  class="skills__img"
+                />
+                <span class="skills__name">CSS</span>
+              </div>
+              <div class="skills__box">
+                <img
+                  src="assets/images/info-javascript.svg"
+                  alt="JS logo"
+                  class="skills__img"
+                />
+                <span class="skills__name">Javascript</span>
+              </div>
+              <div class="skills__box">
+                <img
+                  src="assets/images/info-bootstrap.svg"
+                  alt="Bootstrap logo"
+                  class="skills__img"
+                />
+                <span class="skills__name">Bootstrap</span>
+              </div>
+              <div class="skills__box">
+                <img
+                  src="assets/images/info-tailwind-css.svg"
+                  alt="Tailwind logo"
+                  class="skills__img"
+                />
+                <span class="skills__name">TailwindCSS</span>
+              </div>
+              <div class="skills__box">
+                <img
+                  src="assets/images/info-react.svg"
+                  alt="ReactJS logo"
+                  class="skills__img"
+                />
+                <span class="skills__name">ReactJS</span>
+              </div>
+              <div class="skills__box">
+                <img
+                  src="assets/images/info-sass.svg"
+                  alt="SASS logo"
+                  class="skills__img"
+                />
+                <span class="skills__name">SASS</span>
+              </div>
+              <div class="skills__box">
+                <img
+                  src="assets/images/info-mongodb.svg"
+                  alt="MongoDB logo"
+                  class="skills__img"
+                />
+                <span class="skills__name">MongoDB</span>
+              </div>
+              <div class="skills__box">
+                <img
+                  src="assets/images/info-express.svg"
+                  alt="Express logo"
+                  class="skills__img"
+                />
+                <span class="skills__name">Express</span>
+              </div>
+              <div class="skills__box">
+                <img
+                  src="assets/images/info-nodejs.svg"
+                  alt="NodeJS logo"
+                  class="skills__img"
+                />
+                <span class="skills__name">NodeJS</span>
+              </div>
+              <div class="skills__box">
+                <img
+                  src="assets/images/info-git.svg"
+                  alt="Git logo"
+                  class="skills__img"
+                />
+                <span class="skills__name">Git</span>
+              </div>
+              <div class="skills__box">
+                <img
+                  src="assets/images/info-github.svg"
+                  alt="GitHub logo"
+                  class="skills__img"
+                />
+                <span class="skills__name">GitHub</span>
+              </div>
+              <div class="skills__box">
+                <img
+                  src="assets/images/info-figma.svg"
+                  alt="Figma logo"
+                  class="skills__img"
+                />
+                <span class="skills__name">Figma</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--==================== SERVICES ====================-->
+      <section id="services" class="services section">
+        <h2 class="section__title">SERVICES</h2>
+
+        <div class="services__container container grid">
+          <article class="services__card">
+            <i class="ri-code-box-line services__icon"></i>
+            <h3 class="services__title">Web Development</h3>
+            <p class="services__description">
+              I build websites that work great and look good. Using tools like
+              HTML, CSS, JavaScript, and React, I create sites that are fast and
+              reliable. Whether you need a new site or an update, I can help.
+            </p>
+          </article>
+
+          <article class="services__card">
+            <i class="ri-palette-line services__icon"></i>
+            <h3 class="services__title">Web Design</h3>
+            <p class="services__description">
+              I design websites that are visually appealing and easy to use.
+              From initial sketches to the final look, I make sure your site
+              reflects your brand and catches people’s attention.
+            </p>
+          </article>
+
+          <article class="services__card">
+            <i class="ri-layout-2-line services__icon"></i>
+            <h3 class="services__title">Responsive Design</h3>
+            <p class="services__description">
+              I make sure your website works well on all devices—phones,
+              tablets, and computers. Your site will adjust smoothly to
+              different screen sizes for a consistent experience everywhere.
+            </p>
+          </article>
+
+          <article class="services__card">
+            <i class="ri-pencil-ruler-2-line services__icon"></i>
+            <h3 class="services__title">UI/UX Design</h3>
+            <p class="services__description">
+              I design websites to be user-friendly and enjoyable. I focus on
+              making sure your site is easy to navigate and pleasant to use,
+              enhancing the overall experience for your visitors.
+            </p>
+          </article>
+        </div>
+      </section>
+      <!--==================== CONTACT ====================-->
+      <section id="contact" class="contact section">
+        <h2 class="section__title">CONTACT ME</h2>
+
+        <div class="contact__container container grid">
+          <form action="" id="contact-form" class="contact__form grid">
+            <div class="contact__group grid">
+              <input
+                type="text"
+                name="user_name"
+                placeholder="Name"
+                class="contact__input"
+                required
+              />
+              <input
+                type="email"
+                name="user_email"
+                placeholder="Email"
+                class="contact__input"
+                required
+              />
+            </div>
+
+            <textarea
+              name="user_message"
+              class="contact__input contact__textarea"
+              placeholder="Message"
+              required
+            ></textarea>
+
+            <button type="submit" class="button contact__button">
+              Send Message
+            </button>
+
+            <p class="contact__message" id="contact-message"></p>
+          </form>
+
+          <div class="contact__social grid">
+            <a
+              href="https://www.facebook.com/ypzarjohn.sandoval/"
+              target="_blank"
+              class="contact__social-link"
+            >
+              <i class="ri-facebook-circle-line"></i>
+              <span>Facebook</span>
+            </a>
+            <a
+              href="https://www.instagram.com/akosigotchiee/"
+              target="_blank"
+              class="contact__social-link"
+            >
+              <i class="ri-instagram-line"></i>
+              <span>Instagram</span>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/ypzar-john-sandoval/"
+              target="_blank"
+              class="contact__social-link"
+            >
+              <i class="ri-linkedin-box-line"></i>
+              <span>Linkedin</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <ul class="footer__links">
+          <li>
+            <a href="#home" class="footer__link">Home</a>
+          </li>
+          <li>
+            <a href="#works" class="footer__link">Works</a>
+          </li>
+          <li>
+            <a href="#info" class="footer__link">Info</a>
+          </li>
+        </ul>
+
+        <span class="footer__copy">
+          &#169; All Right Reserved by Ypzar John
+        </span>
+      </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" id="scroll-up" class="scrollup">
+      <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <!--=============== EMAIL JS ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
